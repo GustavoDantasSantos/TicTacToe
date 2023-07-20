@@ -83,4 +83,6 @@ GAME ENDS WITH A DRAW!
 ## Pomodoro 2 🍅
 
 [✅] Criar um teste que deve ser possivel chamar a função jogoDaVelha e retorna o tabuleiro
-[] Commit
+[✅] Commit
+[✅] Criar para imprimir o tabuleiro
+[✅] Commit
