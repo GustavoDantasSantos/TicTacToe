@@ -86,3 +86,8 @@ GAME ENDS WITH A DRAW!
 [✅] Commit
 [✅] Criar para imprimir o tabuleiro
 [✅] Commit
+
+## Pomodoro 3 🍅
+
+[✅] Ajustar a descrição do teste de imprimir tabuleiro que está em jogodavelha.spec.js para fazer sentido ao que está no notes.md
+[✅] Commit

@@ -5,7 +5,7 @@ describe('XP Farm - Jogo da velha', () => {
     tabuleiro = ['-', '-', '-', '-', '-', '-', '-', '-', '-'];
     expect(jogoDaVelha(tabuleiro)).toStrictEqual(tabuleiro);
   });
-  test('deve passar o numero 1 e o jogador X deve ser colocado na primeira casa do array ', () => {
+  test('imprimir tabuleiro ', () => {
     tabuleiro = ['-', '-', '-', '-', '-', '-', '-', '-', '-'];
     jogadorX = 1;
     expect(jogoDaVelha(tabuleiro)).toStrictEqual(tabuleiro, jogadorX);
