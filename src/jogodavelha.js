@@ -1,4 +1,15 @@
-function jogoDaVelha(tabuleiro) {
+function jogoDaVelha(tabuleiro, jogadorX = 'X', casaOndeJogaX = 0) {
+  if (jogadorX === true) {
+    if (
+      casaOndeJogaX >= 1 &&
+      casaOndeJogaX <= 9 &&
+      tabuleiro[casaOndeJogaX - 1] == '-'
+    ) {
+      tabuleiro[casaOndeJogaX - 1] = 'X';
+    } else {
+      return `Onde você quer jogar é inválido`;
+    }
+  }
   imprimirTabuleiro(tabuleiro);
   return tabuleiro;
 }

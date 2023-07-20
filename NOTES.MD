@@ -91,3 +91,9 @@ GAME ENDS WITH A DRAW!
 
 [✅] Ajustar a descrição do teste de imprimir tabuleiro que está em jogodavelha.spec.js para fazer sentido ao que está no notes.md
 [✅] Commit
+[✅] Fazer com que o jogador X jogue na primeira casa do array index 0
+[✅] Criar regra para testar caso um jogador jogue em uma casa que não existe
+
+## Refatoração
+
+[] Retirar jogadorX do teste de imprimir tabuleiro

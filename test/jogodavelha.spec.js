@@ -5,9 +5,24 @@ describe('XP Farm - Jogo da velha', () => {
     tabuleiro = ['-', '-', '-', '-', '-', '-', '-', '-', '-'];
     expect(jogoDaVelha(tabuleiro)).toStrictEqual(tabuleiro);
   });
-  test('imprimir tabuleiro ', () => {
+  test('deve imprimir tabuleiro ', () => {
     tabuleiro = ['-', '-', '-', '-', '-', '-', '-', '-', '-'];
-    jogadorX = 1;
-    expect(jogoDaVelha(tabuleiro)).toStrictEqual(tabuleiro, jogadorX);
+    expect(jogoDaVelha(tabuleiro)).toStrictEqual(tabuleiro);
+  });
+  test('deve mostrar que o jogador X populou a primeira casa do array', () => {
+    tabuleiro = ['-', '-', '-', '-', '-', '-', '-', '-', '-'];
+    jogadorX = true;
+    casaOndeJogaX = 1;
+    expect(jogoDaVelha(tabuleiro, jogadorX, casaOndeJogaX)).toStrictEqual(
+      tabuleiro
+    );
+  });
+  test('deve mostrar mensagem de erro caso o jogador escolha uma casa maior que 9', () => {
+    tabuleiro = ['-', '-', '-', '-', '-', '-', '-', '-', '-'];
+    jogadorX = true;
+    casaOndeJogaX = 10;
+    expect(jogoDaVelha(tabuleiro, jogadorX, casaOndeJogaX)).toBe(
+      'Onde você quer jogar é inválido'
+    );
   });
 });
