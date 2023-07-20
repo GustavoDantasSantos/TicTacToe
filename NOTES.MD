@@ -77,4 +77,10 @@ GAME ENDS WITH A DRAW!
 [✅] Criar Setup
 [✅] Entender o kata
 [✅] Criar os dominios
-[] Criar um teste que deve ser possivel chamar a função jogoDaVelha e retorna o tabuleiro
+[🚧] Criar um teste que deve ser possivel chamar a função jogoDaVelha e retorna o tabuleiro
+[✅] Commit
+
+## Pomodoro 2 🍅
+
+[✅] Criar um teste que deve ser possivel chamar a função jogoDaVelha e retorna o tabuleiro
+[] Commit
