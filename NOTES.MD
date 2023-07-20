@@ -94,6 +94,11 @@ GAME ENDS WITH A DRAW!
 [✅] Fazer com que o jogador X jogue na primeira casa do array index 0
 [✅] Criar regra para testar caso um jogador jogue em uma casa que não existe
 
+## Pomodoro 4 🍅
+
+[🚧] Refatorar teste do jogador X
+[✅] Commit
+
 ## Refatoração
 
 [✅] Retirar jogadorX do teste de imprimir tabuleiro
