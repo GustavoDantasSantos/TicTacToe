@@ -96,4 +96,4 @@ GAME ENDS WITH A DRAW!
 
 ## Refatoração
 
-[] Retirar jogadorX do teste de imprimir tabuleiro
+[✅] Retirar jogadorX do teste de imprimir tabuleiro
